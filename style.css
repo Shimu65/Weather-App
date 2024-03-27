@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: url("images/jason-leung-Xaanw0s0pMk-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.app{
+    background-color: rgba(95, 158, 160, 0.584);
+    width: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px white,-2px -2px 5px white;
+}
+.app h1{
+    color: white;
+   text-align: center;
+   margin-bottom: 10px;
+   text-shadow: 2px 2px 5px red;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.search input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    flex-grow: 1;
+    transition: 0.4s;
+}
+.search input:hover{
+   background-color:rgba(95, 158, 160, 0.584);
+   outline: none;
+   
+
+}
+.search button{
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.search button:hover{
+    background-color:rgba(95, 158, 160, 0.584);
+}
+.weather-details h2{
+    color: white;
+    text-align: center;
+}
+.temp{
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px red;
+
+}
+.city{
+    font-size: 2rem;
+    font-family: cursive;
+    font-style: italic;
+    text-shadow: 2px 2px 5px red;
+}
+.footer-text{
+    font-family: cursive;
+    color: white;
+}
+    
