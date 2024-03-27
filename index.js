@@ -36,6 +36,9 @@ async function getData(city="habiganj"){
         icon.src = "images/snow.png"
 
     }
+    else if (data.weather[0].main == "Clouds"){
+        icon.src = "images/clouds.png"
+    }
     inputBox.value = ""
 
     }
@@ -48,3 +51,4 @@ document.addEventListener("keypress",function(e){
         getData(inputBox.value)
     }
 })
+getData();
