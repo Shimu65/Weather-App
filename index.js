@@ -3,7 +3,7 @@
 // https://api.openweathermap.org/data/2.5/weather?&units=metric&q=habiganj&appid=34acc9ed6bac3b07a16eb3e8675483fb
 
 let key = "34acc9ed6bac3b07a16eb3e8675483fb";
-let url = "https:api.openweathermap.org/data/2.5/weather?&units=metric&q="
+let url = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
 
 const temp = document.querySelector(".temp");
 let inputBox = document.getElementById("inputBox");
